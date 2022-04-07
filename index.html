@@ -4,9 +4,635 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Padin Javier</title>
+    <link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+    />
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <!--  -->
 </head>
 <body>
-    
+    <main>
+      <!-- partial:index.partial.html -->
+      <div class="light-dark">
+        <button class="bubbly-button" id="aa">DAYMODE</button>
+      </div>
+      <!-- partial -->
+        <div class="menu active">
+            <div class="button">
+                <button class="button-menu" id="menux">
+                    <i class="fa-solid fa-x" style="color: white;"></i>
+                </button>
+            </div>
+            <div class="cont" >
+               <div class="text-cont">
+                <h3>COMPRENCION DE LOS SIGUIENTES LENGUAJES HTML CSS JAVASCRIPT</h3>
+
+                <a href="#information">
+                    <button class="option" id="op1">INFORMACION</button>
+                </a>
+                <a href="#projects">
+                    <button class="option" id="op2">PROYECTOS</button>
+                </a>
+                <div class="redes">
+                    
+                  <a href="https://github.com/Padinjavier"><i class="fa-brands fa-github" style="color: black;"></i></a>
+                  <a href="mailto:javierpadin661@gmail.com"><i class="fa-solid fa-envelope" style="color: red;"></i></a>
+                  <a href="https://www.facebook.com/javierpadin.661"><i class="fa-brands fa-facebook" style="color: mediumblue;"></i></a>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="card-one odd">
+            <!--  -->
+            <canvas class="background"></canvas>
+            <!--  -->
+            <div class="name-button">
+                <h2>PADIN JAVIER</h2>
+                <button class="button-menu" id="menu">
+                    <i class="fa-solid fa-bars" style="color: white;"></i>
+                </button>
+            </div>
+            <figure class="perfil">
+                <!-- SPINNING SQUARES -->
+                <div class="spinner-box">
+                    <div class="configure-border-1">  
+                    </div>  
+                    <div class="configure-border-2">
+                    </div> 
+                </div>
+                <!--  -->
+                <div class="fondo-img">
+                    <svg width="0" height="0">
+                      <filter id="gooey-plasma-2">
+                           <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur"/>
+                           <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 50 -16" result="goo" />
+                       </filter>
+                     </svg>
+                  <div class="black-hole">
+                    <ul class="gooey-container">
+                      <li class="bubble"></li>
+                      <li class="bubble"></li>
+                      <li class="bubble"></li>
+                    </ul>
+                  </div>
+                </div>
+                <!--  -->
+
+                <img  src="./assets/images/PERFIL.jpeg" alt="">
+            </figure>
+            <h2 class="specialiti">DESARROLLADOR WEB</h2>
+        </div>
+        <div class="card-two pair" id="information">
+            <h3 class="info" >INFORMACION</h3>
+            <h4 class="text">Estudiande univercitario con desempeño en desarrolo web en los lenguajes de HTML CSS JAVASCRIPT</h4>
+            <!-- <h5 class="text">
+                <br>UNIVERCIDAD: UNIVERCIDAS NACIONAL DE CAÑETE
+                <br>IDIOMA: Español
+            </h5> -->
+            <p class="quality">
+                <br>-Iniciativa y Confianza.
+                <br>-Sentido de Responsablilidad.
+                <br>-Conocimiento y respeto de las normas.
+                <br>-Capacidad de trabajar en equipo.
+                <br>-Gestión del estrés y presión.
+            </p>
+            <div class="redes">
+              <a href="https://github.com/Padinjavier"><i class="fa-brands fa-github" style="color: black;"></i></a>
+              <a href="mailto:javierpadin661@gmail.com"><i class="fa-solid fa-envelope" style="color: red;"></i></a>
+              <a href="https://www.facebook.com/javierpadin.661"><i class="fa-brands fa-facebook" style="color: mediumblue;"></i></a>
+            </div>
+        </div>
+        <section id="total">
+            <div class="card-three odd" id="projects">
+              <h3 class="project">PROYECTOS</h3>
+
+              <!-- 1111111111 -->
+              <div class="one">
+                <figure class="image">
+                    <img src="./assets/images/entrada de datos.jpg" alt="">
+                    <a href="#info-eleven"><i class="fa-solid fa-eye" id="eye-eleven"></i></a>
+                </figure>
+                <div class="arrow-rigth"></div>
+                <p >Introduccion de datos para registro </p>
+                <div class="moreinfo " id="info-eleven">
+                    <div class="conten">
+                        <i class="fa-solid fa-x exit-eleven" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                        <figure >
+                            <img src="./assets/images/entrada de datos.jpg" alt="">
+                        </figure>
+                        <div class="text-info">
+                            <h2>PAGINA CON ENTRADA DE DATOS Y VERIFICACION</h2>
+                            <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                y CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                para poder centar, modificar en modo movil o escritorio y usamos JavaScript 
+                                <i class="fa-brands fa-js-square" style="color: rgb(243, 200, 9);"></i> para mandar los datos 
+                                ingresados y ser anamizados para comprovar si son nombres y correos reales 
+                            </h5>
+                            <div class="iconos">
+                                <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://github.com/Padinjavier/Intro-component-with-sign-up-form"><i class="fa-brands fa-github"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                                  <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://padinjavier.github.io/Intro-component-with-sign-up-form/"><i class="fa-solid fa-globe"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+              <!-- 1010101010 -->
+              <div class="two">
+                  <figure class="image">
+                      <img src="./assets/images/ARTICULO PREVIEW.jpg" alt="">
+                      <a href="#info-ten"><i class="fa-solid fa-eye" id="eye-ten"></i></a>
+                  </figure>
+                  <div class="arrow-left"></div>
+                  <p >Pagina con menú diferente (movil y desktop)</p>
+                  <div class="moreinfo " id="info-ten">
+                      <div class="conten">
+                          <i class="fa-solid fa-x exit-ten" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                          <figure >
+                              <img src="./assets/images/ARTICULO PREVIEW.jpg" alt="">
+                          </figure>
+                          <div class="text-info">
+                              <h2>PAGINA ARTICLE PREVIEW COMPONENT</h2>
+                              <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                  y CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                  para poder centar, dar posicion a los elemtos y usamos JavaScript 
+                                  <i class="fa-brands fa-js-square" style="color: rgb(243, 200, 9);"></i> para acitvar y desactivar el menú
+                                  con hacer clic en el boton de compartir.
+                              </h5>
+                              <div class="iconos">
+                                  <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://github.com/Padinjavier/Article-preview-component"><i class="fa-brands fa-github"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                                    <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://padinjavier.github.io/Article-preview-component/"><i class="fa-solid fa-globe"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- 99999 -->
+              <div class="one">
+                        <figure class="image">
+                            <img src="./assets/images/RICK Y MORTY.png" alt="">
+                            <a href="#info-nine"><i class="fa-solid fa-eye" id="eye-nine"></i></a>
+                        </figure>
+                        <div class="arrow-rigth"></div>
+                        <p >Pagina creada con un API</p>
+                        <div class="moreinfo " id="info-nine">
+                            <div class="conten">
+                                <i class="fa-solid fa-x exit-nine" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                                <figure >
+                                    <img src="./assets/images/RICK Y MORTY.png" alt="">
+                                </figure>
+                                <div class="text-info">
+                                    <h2>PAGINA API RICK AND MORTY</h2>
+                                    <h5>Pagina de NFT creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                        y CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                        para poder centar, dar posicion a los elemtos :hover para dar interaccion y usamos JavaScript 
+                                        <i class="fa-brands fa-js-square" style="color: rgb(243, 200, 9);"></i> para traes los elementos 
+                                        de la API para construir el HTML y  crear los botones de navegacion entre los personajes.
+                                    </h5>
+                                    <div class="iconos">
+                                        <section class="container">
+                                            <figure class="chart" data-percent="75">
+                                              <figcaption></figcaption>
+                                              <a href="https://github.com/Padinjavier/API-RICK-AND-MORTY"><i class="fa-brands fa-github"></i></a>
+                                              <svg class="icono">
+                                                <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                              </svg>
+                                            </figure>
+                                          </section>
+                                          <section class="container">
+                                            <figure class="chart" data-percent="75">
+                                              <figcaption></figcaption>
+                                              <a href="https://padinjavier.github.io/API-RICK-AND-MORTY/"><i class="fa-solid fa-globe"></i></a>
+                                              <svg class="icono">
+                                                <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                              </svg>
+                                            </figure>
+                                          </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+              </div>
+                    
+            </div>
+
+
+            <div class="more-projects pair" id="projects">
+              <!-- 88888 -->
+              <div class="two">
+                <figure class="image">
+                    <img src="./assets/images/SUNNYSIDE.jpg" alt="">
+                    <a href="#info-eight"><i class="fa-solid fa-eye" id="eye-eight"></i></a>
+                </figure>
+                <div class="arrow-left"></div>
+                <p>Carrusel de contenidos empleando javascript</p>
+                
+                <div class="moreinfo " id="info-eight">
+                    <div class="conten">
+                        <i class="fa-solid fa-x exit-eight" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                        <figure >
+                            <img src="./assets/images/SUNNYSIDE.jpg" alt="">
+                        </figure>
+                        <div class="text-info">
+                            <h2>PAGINA SUNNYSIDE</h2>
+                            <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                , CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                para posicionar los elementos y usamos JavaScript <i class="fa-brands fa-js-square" style="color: rgb(243, 200, 9);"></i>
+                                para crear un carrucel para las distintas partes de la paguina y dos menus uno para el menu general y otro para poder elergir
+                                el testimonio que deceamos ver.
+                            </h5>
+                            <div class="iconos">
+                                <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://github.com/Padinjavier/sunnyside"><i class="fa-brands fa-github"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                                  <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://padinjavier.github.io/sunnyside/"><i class="fa-solid fa-globe"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-- 77777 -->
+              <div class="one">
+                <figure class="image">
+                    <img src="./assets/images/Chat-App.jpg" alt="one-proyect">
+                    <a href="#info-seven"><i class="fa-solid fa-eye" id="eye-seven"></i></a>
+                </figure>
+                <div class="arrow-rigth"></div>
+                <p>Crear figuras a partir de HTML y CSS utilisando flex y grid</p>
+                <div class="moreinfo " id="info-seven">
+                    <div class="conten">
+                        <i class="fa-solid fa-x exit-seven" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                        <figure >
+                            <img src="./assets/images/Chat-App.jpg" alt="">
+                        </figure>
+                        <div class="text-info">
+                            <h2>CHAT APP</h2>
+                            <h5>Pagina de chat creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                y CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (div) para 
+                                construir el mobil y la interfas de la APP, se realizo con ayuda de (display: flex;)
+                                , (posicion: relative y absolute ) y dando un color de fondo en forma degradada.
+                            </h5>
+                            <div class="iconos">
+                                <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://github.com/Padinjavier/chat-app-illustration"><i class="fa-brands fa-github"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                                  
+                                  <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://padinjavier.github.io/chat-app-illustration/"><i class="fa-solid fa-globe"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-- 66666 -->
+              <div class="two">
+                <figure class="image">
+                    <img src="./assets/images/Home-card.jpg" alt="">
+                    <a href="#info-six"><i class="fa-solid fa-eye" id="eye-six"></i></a>
+                </figure>
+                <div class="arrow-left"></div>
+                <p>Pagina con orden por columna</p>
+                <div class="moreinfo " id="info-six">
+                    <div class="conten">
+                        <i class="fa-solid fa-x exit-six" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                        <figure >
+                            <img src="./assets/images/Home-card.jpg" alt="">
+                        </figure>
+                        <div class="text-info">
+                            <h2>PAGINA HOME CARD</h2>
+                            <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                , CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                para posicionar los elementos con columnas disferentes en modo mobil y desktop.
+                            </h5>
+                            <div class="iconos">
+                                <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://github.com/Padinjavier/Home-card-in-three-columns"><i class="fa-brands fa-github"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                                  <section class="container">
+                                    <figure class="chart" data-percent="75">
+                                      <figcaption></figcaption>
+                                      <a href="https://padinjavier.github.io/Home-card-in-three-columns/"><i class="fa-solid fa-globe"></i></a>
+                                      <svg class="icono">
+                                        <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                      </svg>
+                                    </figure>
+                                  </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-- 55555 -->
+              <div class="one">
+                  <figure class="image">
+                      <img src="./assets/images/FYLO-PAGE.jpg" alt="">
+                      <a href="#info-five"><i class="fa-solid fa-eye" id="eye-five"></i></a>
+                  </figure>
+                  <div class="arrow-rigth"></div>
+                  <p>Ventana de menu y entrada de correos</p>
+                  <div class="moreinfo " id="info-five">
+                      <div class="conten">
+                          <i class="fa-solid fa-x exit-five" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                          <figure >
+                              <img src="./assets/images/FYLO-PAGE.jpg" alt="">
+                          </figure>
+                          <div class="text-info">
+                              <h2>PAGINA FYLO</h2>
+                              <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                  , CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                  para posicionar los elementos modificar el tamaño de la entrada de correos y usamos JavaScript <i class="fa-brands fa-js-square" style="color: rgb(243, 200, 9);"></i> 
+                                  para crear un menu.
+                              </h5>
+                              <div class="iconos">
+                                  <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://github.com/Padinjavier/Fylo-page-with-two-column-layout"><i class="fa-brands fa-github"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                                    <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://padinjavier.github.io/Fylo-page-with-two-column-layout/"><i class="fa-solid fa-globe"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="more-projects odd" id="projects">
+              <!-- 44444 -->
+              <div class="two">
+                    <figure class="image">
+                        <img src="./assets/images/Apparel page.jpg" alt="">
+                        <a href="#info-four"><i class="fa-solid fa-eye" id="eye-four"></i></a>
+                    </figure>
+                    <div class="arrow-left"></div>
+                    <p>Doble estilo independiente para mobile y desktop</p>
+                    <div class="moreinfo " id="info-four">
+                        <div class="conten">
+                            <i class="fa-solid fa-x exit-four" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                            <figure >
+                                <img src="./assets/images/Apparel page.jpg" alt="">
+                            </figure>
+                            <div class="text-info">
+                                <h2>PAGINA DE APPAREL</h2>
+                                <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                    , CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                    para posicionar los elementos en tamaño de la pantalla mobil, tablet, desktop y usamos JavaScript <i class="fa-brands fa-js-square" style="color: rgb(243, 200, 9);"></i> 
+                                    para crear una interaccion al ingresar un correo incorrecto.
+                                </h5>
+                                <div class="iconos">
+                                    <section class="container">
+                                        <figure class="chart" data-percent="75">
+                                          <figcaption></figcaption>
+                                          <a href="https://github.com/Padinjavier/Base-Apparel-coming-soon-page"><i class="fa-brands fa-github"></i></a>
+                                          <svg class="icono">
+                                            <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                          </svg>
+                                        </figure>
+                                      </section>
+                                      <section class="container">
+                                        <figure class="chart" data-percent="75">
+                                          <figcaption></figcaption>
+                                          <a href="https://padinjavier.github.io/Base-Apparel-coming-soon-page/"><i class="fa-solid fa-globe"></i></a>
+                                          <svg class="icono">
+                                            <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                          </svg>
+                                        </figure>
+                                      </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+
+              <!-- 33333 -->
+              <div class="one">
+                    <figure class="image">
+                        <img src="./assets/images/SUMMARY.jpg" alt="">
+                        <a href="#info-three"><i class="fa-solid fa-eye" id="eye-three"></i></a>
+                    </figure>
+                    <div class="arrow-rigth"></div>
+                    <p>Estilo de color dark y lish</p>
+                    <div class="moreinfo " id="info-three">
+                        <div class="conten">
+                            <i class="fa-solid fa-x exit-three" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                            <figure >
+                                <img src="./assets/images/SUMMARY.jpg" alt="">
+                            </figure>
+                            <div class="text-info">
+                                <h2>PAGINA SUMMARY</h2>
+                                <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                    , CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                    para posicionar los elementos en tamaño de la pantalla mobil, tablet y desktop cambiar ente modo 
+                                    Dark y Light
+                                </h5>
+                                <div class="iconos">
+                                    <section class="container">
+                                        <figure class="chart" data-percent="75">
+                                          <figcaption></figcaption>
+                                          <a href="https://github.com/Padinjavier/Order-summary-component"><i class="fa-brands fa-github"></i></a>
+                                          <svg class="icono">
+                                            <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                          </svg>
+                                        </figure>
+                                      </section>
+                                      <section class="container">
+                                        <figure class="chart" data-percent="75">
+                                          <figcaption></figcaption>
+                                          <a href="https://padinjavier.github.io/Order-summary-component/"><i class="fa-solid fa-globe"></i></a>
+                                          <svg class="icono">
+                                            <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                          </svg>
+                                        </figure>
+                                      </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+
+              <!-- 22222 -->
+              <div class="two">
+                  <figure class="image">
+                      <img src="./assets/images/Stats preview.jpg" alt="">
+                      <a href="#info-two"><i class="fa-solid fa-eye" id="eye-two"></i></a>
+                  </figure>
+                  <div class="arrow-left"></div>
+                  <p >Interaccion de elementos empleando :hover</p>
+                  <div class="moreinfo " id="info-two">
+                      <div class="conten">
+                          <i class="fa-solid fa-x exit-two" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                          <figure >
+                              <img src="./assets/images/Stats preview.jpg" alt="">
+                          </figure>
+                          <div class="text-info">
+                              <h2>PAGINA STATS PREVIEW</h2>
+                              <h5>Pagina creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                  y CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                  para poder centar, dar posicion a los (div) y usando el :hover para darle una accion a los textos.
+                              </h5>
+                              <div class="iconos">
+                                  <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://github.com/Padinjavier/Stats-preview-card-component"><i class="fa-brands fa-github"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                                    <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://padinjavier.github.io/Stats-preview-card-component/"><i class="fa-solid fa-globe"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- 11111 -->
+              <div class="one">
+                  <figure class="image">
+                      <img src="./assets/images/NFT-PAGE.jpg" alt="">
+                      <a href="#info-one"><i class="fa-solid fa-eye" id="eye-one"></i></a>
+                  </figure>
+                  <div class="arrow-rigth"></div>
+                  <p >Interaccion de elementos empleando :hover</p>
+                  <div class="moreinfo " id="info-one">
+                      <div class="conten">
+                          <i class="fa-solid fa-x exit-one" id="info-x" style="color: rgb(0, 0, 0);"></i>
+                          <figure >
+                              <img src="./assets/images/NFT-PAGE.jpg" alt="">
+                          </figure>
+                          <div class="text-info">
+                              <h2>PAGINA NFT</h2>
+                              <h5>Pagina de NFT creada con HTML <i class="fa-brands fa-html5" style="color: mediumblue;"></i>
+                                  y CSS <i class="fa-brands fa-css3-alt" style="color: orangered;"></i> usando (display: flex;)
+                                  para poder centar, dar posicion a los (div) y usando el :hover para darle una accion al pasar 
+                                  el mouse por encima de la imagen 
+                              </h5>
+                              <div class="iconos">
+                                  <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://github.com/Padinjavier/NFT-preview-card-component"><i class="fa-brands fa-github"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                                    <section class="container">
+                                      <figure class="chart" data-percent="75">
+                                        <figcaption></figcaption>
+                                        <a href="https://padinjavier.github.io/NFT-preview-card-component/"><i class="fa-solid fa-globe"></i></a>
+                                        <svg class="icono">
+                                          <circle class="outer" cx="330%" cy="50%" r="40%" transform="rotate(-90, 95, 95)"/>
+                                        </svg>
+                                      </figure>
+                                    </section>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

@@ -110,7 +110,7 @@ eyeeleven.forEach(function (item) {
 	})
 })
 
-
+// agregar accion a proyecto 12
 
 
 const rigth = document.querySelectorAll('.arrow-rigth');
@@ -195,35 +195,6 @@ var animateButton = function(e) {
 	  toggleTheme()
   })
   
-
-
-//   const cards = document.querySelectorAll('.project')
-
-//   cards.forEach((card) => {
-// 	  card.addEventListener('click', () => {
-// 		  const id = card.querySelector('.two')
-
-// 		  const urlGithub = card.querySelector('.one')
-
-// 		  console.log(urlGithub, id)
-// 	  })
-//   })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 window.onload = function () {
